@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rofgha VPN</string>
+    <string name="connect">اتصال</string>
+    <string name="disconnect">قطع اتصال</string>
+    <string name="status_connected">وضعیت: متصل ✅</string>
+    <string name="status_disconnected">وضعیت: قطع ❌</string>
+    <string name="config_hint">کانفیگ VLESS رو اینجا بذار...</string>
+    <string name="invalid_config">فرمت کانفیگ نادرست است</string>
+    <string name="config_empty">لطفاً کانفیگ VLESS رو وارد کنید</string>
+</resources>

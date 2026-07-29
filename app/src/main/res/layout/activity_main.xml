@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1a1a2e"
+    tools:context=".MainActivity">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🛡️ Rofgha VPN"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Status -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="وضعیت: قطع ❌"
+        android:textSize="18sp"
+        android:textColor="#ff6b6b"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Config Input -->
+    <EditText
+        android:id="@+id/etConfigUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="کانفیگ VLESS رو اینجا بذار..."
+        android:inputType="textUri"
+        android:textColor="#ffffff"
+        android:textColorHint="#666666"
+        android:background="@drawable/edit_text_background"
+        android:padding="16dp"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"
+        android:drawableStart="@drawable/ic_link"
+        android:drawablePadding="8dp" />
+
+    <!-- Connect Button -->
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="اتصال"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/btn_connect"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Info Section -->
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اطلاعات کانفیگ..."
+        android:textSize="14sp"
+        android:textColor="#aaaaaa"
+        android:lineSpacingExtra="4dp"
+        android:background="@drawable/info_background"
+        android:padding="16dp" />
+
+</LinearLayout>
